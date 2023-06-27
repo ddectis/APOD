@@ -1,10 +1,18 @@
 //documentation for the apod API can be found here: https://api.nasa.gov/
 
+
+import { APODAPIKey } from "./config.js"
+
+
 const apodBaseURL = "https://api.nasa.gov/planetary/apod"; //Astronony Picture Of the Day
 const imageryBaseURL = "https://api.nasa.gov/planetary/earth/imagery"; //Landsat 8 Imagery
 const epicBaseURL = "https://epic.gsfc.nasa.gov/api/enhanced/date/2015-10-31"
 
-const apiKey = "api_key=JuRL14u2u8LdPMYZ9fbUQ1tD8q2ehGAbBecZO88k";
+
+const apiKey = APODAPIKey;
+
+
+
 
 let requestDate = "2023-06-23";
 
